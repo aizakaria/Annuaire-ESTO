@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Annuaire ESTO - Connexion ou Inscription</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/login.css">
+</head>
+<body>
+     <form action="authentification.php" method="post">
+<div class="wrapper fadeInDown">
+  <div id="formContent">
+    <!-- Tabs Titles -->
+    <h2 class="active">
+     Connexion 
+    </h2>
+    <h2 class="inactive underlineHover">
+    <a class="underlineHover" href="etudiant/InscripEtud.php" title="Formulaire d'inscription">Inscription </a> 
+   </h2>
+
+    <div class="fadeIn first">
+      <img src="images/logo.png" id="icon" alt="User Icon" />
+    </div>
+
+    <form>
+      <input type="email" id="email" class="fadeIn second" name="email" placeholder="E-mail" required>
+      <input type="password" id="password" class="fadeIn third" name="password" placeholder="mot de passe">
+      <input type="submit" class="fadeIn fourth" value="Se Connecter" name="submit" title="submit">
+    </form>
+
+    <!-- Remind Passowrd -->
+    <div id="formFooter">
+      <a class="underlineHover" title="récupérer votre mot de passe">mot de passe oublié? </a>
+    </div>
+
+  </div>
+</div>
+</form>
+</body>
+</html>
